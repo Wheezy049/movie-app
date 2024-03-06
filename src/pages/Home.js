@@ -25,7 +25,8 @@ const Home = () => {
       </div>
       <div className="card-container">
         {movie && movie.map((movieReq) =>
-          <Movie key={movieReq.id} {...movieReq} />)}
+          <Movie key={movieReq.id} {...movieReq} />
+        )}
       </div>
     </div>
   )
