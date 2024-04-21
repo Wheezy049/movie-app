@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .poster {
   background-image: url("Poster.png");
   height: 500px;
@@ -114,6 +118,29 @@
   grid-template-rows: auto;
   margin: 20px 55px 20px 55px;
   gap: 80px;
+}
+.movieDetail{
+  display: flex;
+  gap: 30px;
+}
+.sidebar{
+  background-color: white;
+  width: 200px;
+  height: 100vh;
+  border-radius: 0 20px 20px 0;
+  border: 1px solid black;
+}
+.movieDetail-img{
+  background-color: white;
+  border-radius: 10px;
+  width: 80vw;
+  margin: 20px 0;
+}
+.movieDetail-img img{
+ width: 100%;
+ border-radius: 10px;
+ object-fit: fill;
+ height: 50vh;
 }
 
 @media screen and (max-width: 480px) {

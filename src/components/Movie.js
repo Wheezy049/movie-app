@@ -1,16 +1,5 @@
 import React from "react";
-import chevron from "../Chevron right.svg";
-import { useNavigate } from "react-router-dom";
-
-
-{/* <div className="feature">
-        <h1>Featured Movie</h1>
-        <div>
-          <p>See more</p>
-          <img src={chevron} alt="chevron" />
-        </div>
-      </div> */}
-
+import { useNavigate } from "react-router-dom"
 
 const API_IMG = "http://image.tmdb.org/t/p/w500/";
 
