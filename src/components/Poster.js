@@ -12,7 +12,7 @@ function Poster() {
    <div className="header">
     <div className="logo">
      <img src={tv} alt="logo" />
-     <h3>MovieBox</h3>
+     <h3 style={{color: '#FFF', fontSize: '1.5rem', fontWeight: '600'}}>MovieBox</h3>
     </div>
     <div className="search">
      <input type="search" name="" id=""></input>
@@ -26,8 +26,8 @@ function Poster() {
    <div className="poster-text">
     <div className="johnWick">
      <h2>John Wick 3 :</h2>
-     <h2 style={{ marginTop: '-30px' }}>Parabellum</h2>
-     <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+     <h2 style={{ marginTop: '-7px' }}>Parabellum</h2>
+     <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: '8px' }}>
       <img width={'20px'} height={'20px'} src={imob} alt="imob" />
       <p>86.0 / 100</p>
       <img width={'20px'} height={'20px'} src={pngItem} alt="pngItem" />

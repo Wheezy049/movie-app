@@ -129,18 +129,23 @@
   height: 100vh;
   border-radius: 0 20px 20px 0;
   border: 1px solid black;
+  padding: 20px;
 }
 .movieDetail-img{
   background-color: white;
   border-radius: 10px;
   width: 80vw;
+  position: relative;
   margin: 20px 0;
 }
 .movieDetail-img img{
  width: 100%;
  border-radius: 10px;
- object-fit: fill;
- height: 50vh;
+ display: flex;
+ object-fit: cover;
+ object-position: center;
+ transform: translatex(-15px);
+ height: 300px;
 }
 
 @media screen and (max-width: 480px) {
